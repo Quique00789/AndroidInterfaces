@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formulario de Registro"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de Usuarios"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnApi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consumo de API"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnPreferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preferencias"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Búsqueda"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
