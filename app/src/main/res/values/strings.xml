@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AplicacionInformaticoDeInterfaces</string>
+    <string name="app_name">Android Interfaces</string>
+    <string name="menu_principal">Menú Principal</string>
+    <string name="formulario">Formulario</string>
+    <string name="listado">Listado</string>
+    <string name="api">API REST</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="busqueda">Búsqueda</string>
 </resources>

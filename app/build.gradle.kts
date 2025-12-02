@@ -54,6 +54,9 @@ dependencies {
     // RecyclerView
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     
+    // CardView
+    implementation("androidx.cardview:cardview:1.0.0")
+    
     // Retrofit para API REST
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
