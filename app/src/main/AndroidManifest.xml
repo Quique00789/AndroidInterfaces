@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permisos necesarios -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,18 +14,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AplicacionInformaticoDeInterfaces">
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        tools:targetApi="31">
+
+        <!-- Activity Principal -->
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AplicacionInformaticoDeInterfaces">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Activity de Formulario -->
+        <activity
+            android:name=".FormularioActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Activity de Listado -->
+        <activity
+            android:name=".ListadoActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Activity de API -->
+        <activity
+            android:name=".ApiActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Activity de Preferencias -->
+        <activity
+            android:name=".PreferenciasActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Activity de Búsqueda -->
+        <activity
+            android:name=".BusquedaActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 
 </manifest>
